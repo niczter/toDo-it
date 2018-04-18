@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do-It</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+</head>
+<body>
+	<div id="bg">
+		<div id="title" class="row head" onclick="landing()">
+			<div id="titleLogo" class="head" onclick=""><i class="far fa-check-square"></i> To Do-It</div>
+			<div id="titleClose" class="head">X</div>
+		</div>
+
+		<div id="task">
+			<div id="addItem" class="rowTitle">
+
+				<div id="addItemLogo" class="itemText colorScheme placeLogo" onclick="showForm()">
+					<i class="fas fa-plus"></i>
+				</div>
+<!--
+				<div id="addItemTitle" class="itemTitle colorScheme"><input type="text" name="title" class="itemText" value ="Add a Task"></div>
+-->
+			</div>
+<!--
+			<div id="addDesc" class="rowDesc addDesc">
+				<div class="columnButt">
+					<div class="itemText colorScheme placeLogo"><i class="far fa-edit"></i></div>
+					<div class="itemText colorScheme placeLogo"><i class="fas fa-check"></i></div>
+				</div>
+				<div id="addItemDesc" class="addItemDesc colorScheme">
+					<input type="text" name="desc" class="descText" value ="Add a Description">
+				</div>
+
+			</div>
+-->
+		</div>
+
+
+		<div id="itemsQueue" class="container">
+<!-- 
+			<div id="task#">
+				<div id="item#" class="rowTitle">
+					<div id="itemLogo#" class="itemText colorScheme placeLogo"><i class="far fa-square"></i></div>
+					<div id="itemTitle#" class="itemTitle colorScheme"><button type="text" name="title#" class="itemText">Placeholder Title 1</button></div>
+				</div>
+			</div>
+
+			<div id="task#">
+				<div id="Item#" class="rowTitle">
+					<div id="ItemLogo#" class="itemText colorScheme placeLogo"><i class="far fa-square"></i></div>
+					<div id="ItemTitle#" class="itemTitle colorScheme"><button type="text" name="title#" class="itemText">Placeholder Title 2</button></div>
+				</div>
+			</div>
+			<div id="task#">
+				<div id="Item#" class="rowTitle">
+					<div id="ItemLogo#" class="itemText colorScheme placeLogo"><i class="far fa-square"></i></div>
+					<div id="ItemTitle#" class="itemTitle colorScheme"><button type="text" name="title#" class="itemText">Placeholder Title 3</button></div>
+				</div>
+			</div>
+			<div id="task#">
+				<div id="Item#" class="rowTitle">
+					<div id="ItemLogo#" class="itemText colorScheme placeLogo"><i class="far fa-square"></i></div>
+					<div id="ItemTitle#" class="itemTitle colorScheme"><button type="text" name="title#" class="itemText">Placeholder Title 4</button></div>
+				</div>
+			</div>
+			<div id="task#">
+				<div id="Item#" class="rowTitle">
+					<div id="ItemLogo#" class="itemText colorScheme placeLogo"><i class="far fa-square"></i></div>
+					<div id="ItemTitle#" class="itemTitle colorScheme"><button type="text" name="title#" class="itemText">Placeholder Title 5</button></div>
+				</div>
+			</div>
+			<div id="task#">
+				<div id="Item#" class="rowTitle">
+					<div id="ItemLogo#" class="itemText colorScheme placeLogo"><i class="far fa-square"></i></div>
+					<div id="ItemTitle#" class="itemTitle colorScheme"><button type="text" name="title#" class="itemText">Placeholder Title 6</button></div>
+				</div>
+			</div>
+ -->
+
+		</div>
+
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>

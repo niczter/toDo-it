@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+
+html, body {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	height: 100%;
+}
+body{
+	background: url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+}
+#bg{
+	width: 100%;
+}
+/*THIS IS THE HEAD PART*/
+.row{
+	padding-top: 5%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	height: 50px;
+}
+.head {
+	font-size: 35px;
+}
+#titleLogo{
+	width: 80%;
+	margin: 0 0 0 5%;
+}
+#titleClose{
+	width: 10%;
+	margin: 0 5% 0 0;
+	float: right;
+	text-align: right;
+}
+/*THIS IS THE SHAPE OF ADD A TASK*/
+#task{
+	margin: 5%;
+}
+.rowTitle{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 2px;
+}
+.addDesc{
+	margin-top: 2px;
+	height: 100px;
+}
+.itemText{ /*THIS IS FOR INPUT*/
+	font-size: 20px;
+	line-height: 50px;
+	background: transparent;
+	color: rgba(255, 255, 255, 0.85);
+}
+.noClick{ /*THIS IS FOR DIVs*/
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(45, 92, 120, 0.2);
+}
+.colorScheme{ /*THIS IS FOR DIVs*/
+    color: white;
+    background: rgba(45, 92, 120, 0.2);
+}
+.placeLogo{
+	min-width: 50px;
+	height: 50px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+.itemTitle { /*THIS IS FOR DIVs*/
+	width: 100%;
+}
+.addItemDesc { /*THIS IS FOR DIVs*/
+	width: 100%;
+	height: 100px;
+	margin-bottom: 5%;
+}
+.descText{ /*THIS IS FOR INPUT*/
+	font-size: 15px;
+	line-height: 15px;
+	color: rgba(255, 255, 255, 0.85);
+	background: transparent;
+}
+.itemTitle {
+	border: 0;
+	height: 50px;
+}
+.itemTitle input{
+	height: 50px;
+	width: 90%;
+}
+.addItemDesc input{
+	height: 100px;
+	width: 90%;
+	line-height: 100px;
+	font-size: 20px;
+}
+.itemTitle button{
+	height: 50px;
+	width: 100%;
+	padding: 0 40px;
+	border: 0;
+	text-align: left;
+}
+input{
+	padding: 0 40px;
+	border: 0;
+	width: 95%;
+}
+textarea:focus, input:focus {
+    color: white;
+	background: rgba(255, 255, 255, 0.2);
+}
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.85);
+    opacity: 1; /* Firefox */
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.85);
+}
+input::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.85);
+}
+.rowDesc{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	margin-bottom: 5%;
+	width: 100%;
+}
+.descTextDisplay{
+	padding: 40px;
+	font-size: 20px;
+	text-align: left;
+	border: 0;
+}
+
+
+/*itemsQueue*/
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	margin: 5%;
+	width: 90%;
+}
+
+
+.row4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: flex-start;
+	height: 50px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
